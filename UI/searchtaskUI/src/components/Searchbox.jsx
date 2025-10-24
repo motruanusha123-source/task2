@@ -1,6 +1,4 @@
-/*
-Updated SearchBox.jsx with "No results found" message
-*/
+
 
 import React, { useState, useEffect, useRef } from 'react';
 import SuggestionList from './SuggestionList';
@@ -64,12 +62,7 @@ export default function SearchBox({ onSelect }) {
           placeholder="Search Course, e.g. Java,AI/ML"
           style={{ flex: 1, padding: '18px', border: '1px solid #36a92cff', borderRadius: '5px 0 0 5px', outline: 'none' }}
         />
-        {/* <button
-          type="submit"
-          style={{ padding: '8px 10px', border: '1px solid #ccc', borderRadius: '0 5px 5px 0', cursor: 'pointer', backgroundColor: '#4f46e5', color: 'white' }}
-        >
-          Search
-        </button> */}
+
       </form>
 
       {open && (
